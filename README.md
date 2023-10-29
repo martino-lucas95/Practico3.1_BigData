@@ -1,4 +1,4 @@
-﻿**BIG DATA - UCU ![](Aspose.Words.efd546b2-d57a-4f79-8c84-48bdb64affec.001.png)**
+﻿**BIG DATA - UCU !**
 
 Practico DBT + Datawarehouse 
 
