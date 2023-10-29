@@ -1,0 +1,12 @@
+Practico3:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: postgres
+      password: P@assword!
+      port: 5433
+      dbname: ecommerce_dwh
+      schema: star
+      threads: 4
