@@ -1,6 +1,6 @@
-Practico DBT + Datawarehouse 
+# Practico DBT + Datawarehouse
 
-Prerequisitos: 
+## Prerequisitos: 
 
 1. Instalar Docker 
 1. Descargar la carpeta Prac co 2/prac co2.zip de webasignatura y extraerla en sus equipos 
@@ -11,13 +11,13 @@ Podran conectarse a la base de datos **POSTGRES** que se está ejecutando, u liz
 
 En la ubicación localhost:5433 
 
-Preparación 
+## Preparación 
 
 Analizar que tablas existen, que can dad de registros  ene cada una, iden ficar que tablas se pueden relacionar, en que campos existen nulos, etc. 
 
 Existen tablas que puedan llegar a cambiar en el  empo de las cuales queramos mantener su historial? 
 
-Ejercicio 1 
+### Ejercicio 1 
 
 Se desea crear un Data Mart para el análisis de clientes, se desea saber: 
 
@@ -29,7 +29,7 @@ Se desea crear un Data Mart para el análisis de clientes, se desea saber:
 1. Diseñar y desarrollar, pero ahora utilizando el enfoque OBT.** 
 1. En la información provista por la herramienta utilizada (DBeaver, DataGrip, etc) ¿se ven diferencias al momento de realizar las consultas para obtener la información solicitada al comienzo?** 
 
-Ejercicio 2 
+### Ejercicio 2 
 
 Utilizando la misma base de datos, se desea realizar un análisis de la performance de los distintos productos, por ejemplo: 
 
