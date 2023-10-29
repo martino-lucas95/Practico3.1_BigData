@@ -28,7 +28,7 @@ Se desea crear un Data Mart para el análisis de clientes, se desea saber:
 2. Desarrollar en DBT los modelos necesarios para la construcción del Data Mart mencionado.** 
 3. Diseñar y desarrollar, pero ahora utilizando el enfoque OBT.** 
 4. En la información provista por la herramienta utilizada (DBeaver, DataGrip, etc) ¿se ven diferencias al momento de realizar las consultas para obtener la información solicitada al comienzo?** 
-    No, generalmente no se veran diferencias significativas ya que dichas herramientas estan diseñadas para soportar ambos esquemas, donde si se ven diferencias es en las consultas, donde cambia su complejidad y estructura.
+    **No, generalmente no se veran diferencias significativas ya que dichas herramientas estan diseñadas para soportar ambos esquemas, donde si se ven diferencias es en las consultas, donde cambia su complejidad y estructura.**
 
 ### Ejercicio 2 
 
