@@ -1,5 +1,3 @@
-﻿**BIG DATA - UCU !**
-
 Practico DBT + Datawarehouse 
 
 Prerequisitos: 
