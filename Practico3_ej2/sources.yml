@@ -1,0 +1,11 @@
+version: 2
+
+sources: 
+    - name: my_source
+      database: ecommerce_dwh
+      schema: star
+      tables: 
+          - name: customers
+          - name: products
+          - name: invoices
+          - name: invoices_detail

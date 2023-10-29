@@ -53,3 +53,75 @@ Runtime Error
 [0m12:37:35.430747 [debug] [MainThread]: Command `dbt run` failed at 12:37:35.430747 after 0.08 seconds
 [0m12:37:35.432760 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EDB223ED90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EDB4F03AF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EDB4F039D0>]}
 [0m12:37:35.433761 [debug] [MainThread]: Flushing usage events
+[0m15:15:16.847895 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002032B5668F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002032E0D0730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002032E0D0580>]}
+
+
+============================== 15:15:16.883049 | 29242a86-7fe7-4af0-8581-06ebac70015f ==============================
+[0m15:15:16.883049 [info ] [MainThread]: Running with dbt=1.6.6
+[0m15:15:16.886930 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\mipa2\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:15:16.891815 [info ] [MainThread]: dbt version: 1.6.6
+[0m15:15:16.897723 [info ] [MainThread]: python version: 3.10.11
+[0m15:15:16.901585 [info ] [MainThread]: python path: C:\Users\mipa2\OneDrive\Escritorio\Facultad\Big Data\practico2\dbt-env\Scripts\python.exe
+[0m15:15:16.904536 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m15:15:17.510547 [info ] [MainThread]: Using profiles dir at C:\Users\mipa2\.dbt
+[0m15:15:17.512508 [info ] [MainThread]: Using profiles.yml file at C:\Users\mipa2\.dbt\profiles.yml
+[0m15:15:17.515425 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\mipa2\OneDrive\Escritorio\Facultad\Big Data\Practico3.1_BigData\dbt_project.yml
+[0m15:15:17.519344 [info ] [MainThread]: Configuration:
+[0m15:15:17.522273 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m15:15:17.526171 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m15:15:17.529100 [info ] [MainThread]: Required dependencies:
+[0m15:15:17.533005 [debug] [MainThread]: Executing "git --help"
+[0m15:15:17.639424 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:15:17.642375 [debug] [MainThread]: STDERR: "b''"
+[0m15:15:17.645309 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:15:17.648217 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m15:15:17.652177 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m15:15:17.654085 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "practico3", target "dev" invalid: ['dbname'] is not of type 'string'
+
+
+[0m15:15:17.657015 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\mipa2\OneDrive\Escritorio\Facultad\Big Data\Practico3.1_BigData\dbt_project.yml> not found
+
+[0m15:15:17.661932 [debug] [MainThread]: Command `dbt debug` failed at 15:15:17.660932 after 0.89 seconds
+[0m15:15:17.664841 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002032B5668F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002032E0D04F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002032E1BF010>]}
+[0m15:15:17.666801 [debug] [MainThread]: Flushing usage events
+[0m15:16:42.764058 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9D1466920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9D40D0760>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9D40D05B0>]}
+
+
+============================== 15:16:42.776739 | a6341744-7e15-448c-8a53-d493a6602500 ==============================
+[0m15:16:42.776739 [info ] [MainThread]: Running with dbt=1.6.6
+[0m15:16:42.780648 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\mipa2\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m15:16:42.785533 [info ] [MainThread]: dbt version: 1.6.6
+[0m15:16:42.789432 [info ] [MainThread]: python version: 3.10.11
+[0m15:16:42.795304 [info ] [MainThread]: python path: C:\Users\mipa2\OneDrive\Escritorio\Facultad\Big Data\practico2\dbt-env\Scripts\python.exe
+[0m15:16:42.800188 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m15:16:42.946302 [info ] [MainThread]: Using profiles dir at C:\Users\mipa2\.dbt
+[0m15:16:42.948247 [info ] [MainThread]: Using profiles.yml file at C:\Users\mipa2\.dbt\profiles.yml
+[0m15:16:42.952152 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\mipa2\OneDrive\Escritorio\Facultad\Big Data\Practico3.1_BigData\dbt_project.yml
+[0m15:16:42.956075 [info ] [MainThread]: Configuration:
+[0m15:16:42.959977 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m15:16:42.964855 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m15:16:42.969739 [info ] [MainThread]: Required dependencies:
+[0m15:16:42.972655 [debug] [MainThread]: Executing "git --help"
+[0m15:16:43.079109 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m15:16:43.083019 [debug] [MainThread]: STDERR: "b''"
+[0m15:16:43.085952 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m15:16:43.087770 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m15:16:43.090724 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m15:16:43.093687 [info ] [MainThread]: Could not load dbt_project.yml
+Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "practico3", target "dev" invalid: ['dbname'] is not of type 'string'
+
+
+[0m15:16:43.096593 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\mipa2\OneDrive\Escritorio\Facultad\Big Data\Practico3.1_BigData\dbt_project.yml> not found
+
+[0m15:16:43.101492 [debug] [MainThread]: Command `dbt debug` failed at 15:16:43.100517 after 0.38 seconds
+[0m15:16:43.103433 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9D1466920>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9D40D0520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F9D41BBB50>]}
+[0m15:16:43.106375 [debug] [MainThread]: Flushing usage events
