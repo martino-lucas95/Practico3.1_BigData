@@ -25,9 +25,10 @@ Se desea crear un Data Mart para el análisis de clientes, se desea saber:
 - De donde son originarios los clientes que más dinero gastan 
 - Cuáles son los clientes que más veces realizan compras 
 1. Diseñar un esquema estrella que responda a estas inquietudes utilizando las tablas provistas en la base de datos **ecommerce\_dwh.** 
-1. Desarrollar en DBT los modelos necesarios para la construcción del Data Mart mencionado.** 
-1. Diseñar y desarrollar, pero ahora utilizando el enfoque OBT.** 
-1. En la información provista por la herramienta utilizada (DBeaver, DataGrip, etc) ¿se ven diferencias al momento de realizar las consultas para obtener la información solicitada al comienzo?** 
+2. Desarrollar en DBT los modelos necesarios para la construcción del Data Mart mencionado.** 
+3. Diseñar y desarrollar, pero ahora utilizando el enfoque OBT.** 
+4. En la información provista por la herramienta utilizada (DBeaver, DataGrip, etc) ¿se ven diferencias al momento de realizar las consultas para obtener la información solicitada al comienzo?** 
+    No, generalmente no se veran diferencias significativas ya que dichas herramientas estan diseñadas para soportar ambos esquemas, donde si se ven diferencias es en las consultas, donde cambia su complejidad y estructura.
 
 ### Ejercicio 2 
 
@@ -37,6 +38,6 @@ Utilizando la misma base de datos, se desea realizar un análisis de la performa
 - ¿Algún producto solo se vende en una ubicación? 
 - ¿Cuál es el top 10 de los productos vendidos en términos de cantidad? 
 1. ¿Existen dos productos que siempre se vendan juntos? 
-1. Diseñar un esquema estrella que responda a estas inquietudes utilizando las tablas provistas en la base de datos **ecommerce\_dwh.** 
-1. Desarrollar en DBT los modelos necesarios para la construcción del Data Mart mencionado.** 
-1. Diseñar y desarrollar, pero ahora utilizando el enfoque OBT.** 
+2. Diseñar un esquema estrella que responda a estas inquietudes utilizando las tablas provistas en la base de datos **ecommerce\_dwh.** 
+3. Desarrollar en DBT los modelos necesarios para la construcción del Data Mart mencionado.** 
+4. Diseñar y desarrollar, pero ahora utilizando el enfoque OBT.** 
